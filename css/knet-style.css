@@ -405,13 +405,12 @@ input.knetCon_Trait_Ontology {
 
 #itemInfo {
     /*display:none;*/
-    /*       position: fixed; background-color: white; top:100px; right:0; z-index:1; width: 350px; height:550px;*/
+    /*position: fixed; background-color: white; top:100px; right:0; z-index:1; width: 350px; height:550px;*/
     position: absolute;
     right: 0;
     z-index: 5;
     width: 30%;
-    height: /*85*/
-    80%;
+    height: 70%;
     background-color: white;
     border: 2px solid #444444;
     /*margin-top: 2px;
