@@ -14,7 +14,6 @@ function launchNetwork(jsonFileName) {
 	//console.log("launchNetwork>> dataset: "+ graphData);
 	var datasetDescription_text = "sampleFiles/" + jsonFileName + "_summary.txt";
 	try {
-
 		jQuery.getJSON(graphData, function (data) {
 			// response contents (pure JSON).
 			var eles_jsons = data.graph.graphJSON.elements;
@@ -42,7 +41,7 @@ function launchNetwork(jsonFileName) {
 	}
 	catch (err) {
 		var errorMsg = err.stack + ":::" + err.name + ":::" + err.message;
-		console.log(errorMsg);
+		console.log('error: ', errorMsg);
 	}
 }
 
